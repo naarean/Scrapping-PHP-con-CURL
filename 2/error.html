@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>Error</title>
+	<style>
+body{
+	color: #333;
+	background: #333;
+	font-family: "Helvetica", Arial;
+	font-size: 48px;
+	text-align: center;
+}
+form
+{
+	background: #CCC;
+	border-radius: 1em;
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+	text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	margin: 1em auto;
+	padding: 1em;
+	width: 40%;
+}
+form input
+{
+	display: block;
+	font-size: 40px;
+	margin: 1em auto;
+	padding: 0.5em;
+	width: 70%;
+}
+	</style>
+
+</head>
+<body>
+	<form method = post name = "entrar" action = "procesar.php">
+		<label>Error</label></br>
+		<label>Nombre usuario</label>
+		<input type="text" name="username" />
+		<label>Password</label>
+		<input type="password" name="passwd" />
+		<input type= submit name= "entrar" value="Acceder" />
+	</form>
+</body>
+</html>
